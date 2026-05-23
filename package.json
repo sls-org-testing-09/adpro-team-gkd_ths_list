@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "check": "pnpm exec tsx ./scripts/check.ts",
+    "update": "pnpm exec tsx ./scripts/update.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.8.0"
+}
